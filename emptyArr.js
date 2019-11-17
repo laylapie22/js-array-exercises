@@ -1,10 +1,9 @@
-/**Write a JavaScript script to 
+/**
+ * Write a JavaScript script to 
  * empty an array keeping the original size. 
  */
 const emptyArr = (arr) => {
-    console.log(arr)
-    arr.length = 0
-    console.log(arr)
+    arr.fill(null)
 }
 
-emptyArr([1,2,3,4])
+module.exports = {emptyArr}

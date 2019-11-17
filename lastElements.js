@@ -18,6 +18,5 @@ const lastElem = (arr,n) => {
     }
     return arr.slice(arr.length-n, arr.length)
 }
-//console.log(lastElem([7,8,9],2))
 
 module.exports = {lastElem}

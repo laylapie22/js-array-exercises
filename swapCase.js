@@ -1,3 +1,7 @@
+/** Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' 
+ * the output should be 
+ * 'tHE qUICK bROWN fOX'. 
+ * */
 const swapCase = (str) => {
     const UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     const LOWER = 'abcdefghijklmnopqrstuvwxyz'
@@ -14,7 +18,5 @@ const swapCase = (str) => {
     }
     return result.join('')
 }
-
-//console.log(swapCase("Hello i am layla"))
 
 module.exports = { swapCase }

@@ -17,6 +17,4 @@ const joinElem = (arr) => {
     return stringArr.join("\n")
 }
 
-//console.log(joinElem(["Red", "Green", "White", "Black"]))
-
 module.exports = { joinElem }

@@ -2,6 +2,7 @@
  * Write a JavaScript program to find a pair of 
  * elements (indices of the two numbers) from 
  * an given array whose sum equals a specific target number. 
+ * 
  * */ 
 const findPairValues = (arr, target) => {
     for ( let i = 0; i < arr.length; i++ ) {
@@ -14,7 +15,5 @@ const findPairValues = (arr, target) => {
         }
     } 
 }
-
-//console.log(findPairValues([10,20,30,40,50],50))
 
 module.exports = { findPairValues }

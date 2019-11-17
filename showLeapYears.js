@@ -1,3 +1,5 @@
+// Find the leap years in a given range of years.
+
 const leapYearRange = (y1,y2) => {
     let yearRange = [] //this willl hold the years in between the entered years
     for ( let i = y1; i <= y2; i++ ) {
@@ -20,8 +22,5 @@ const checkLeapYear = (year) => {
     }
     return false;
 }
-
-
-//console.log(leapYearRange(2000,2012))
 
 module.exports = {leapYearRange,checkLeapYear}

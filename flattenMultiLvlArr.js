@@ -1,3 +1,7 @@
+/** Write a JavaScript program to flatten a nested (any depth) array. 
+*   the array will 
+*   be flattened until the last level.
+*/
 const flatten = (arr) => {
     const destination = []
     flattenArr(arr,destination)
@@ -14,4 +18,4 @@ const flattenArr = (arr,destination) => {
     return destination
 }
 
-console.log(flatten([1, [2], [3, [[4]]],[5,6]]))
+module.exports = {flatten}

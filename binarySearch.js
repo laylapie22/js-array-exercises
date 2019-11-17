@@ -1,4 +1,5 @@
-/** A binary search or half-interval 
+/** 
+ * A binary search or half-interval 
  * search algorithm finds the position of a specified input value within an array sorted by key value.
  * Sample array : 
  * var items = [1, 2, 3, 4, 5, 7, 8, 9];
@@ -10,4 +11,4 @@ const searchEl = (arr,el) => {
     return arr.indexOf(el)
 }
 
-console.log(searchEl([1,2,3,4,5],5))
+module.exports = { searchEl }

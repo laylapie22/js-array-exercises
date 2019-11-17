@@ -1,4 +1,4 @@
-
+// Write a JavaScript program to shuffle an array.
 const getRandomInt = (max) => {
     return Math.floor( Math.random() * max)
 }
@@ -18,7 +18,5 @@ const shuffle = (arr,shuffleTimes = 10) => {
 
     return arr
 }
-
-//console.log(shuffle([1,3,4,5],10))
 
 module.exports = { shuffle }

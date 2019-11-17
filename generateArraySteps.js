@@ -1,3 +1,6 @@
+/** Write a JavaScript function to generate an array of specified length, 
+ * filled with integer numbers, 
+ * increase by one from starting position. */
 const rangeBetween = (num1,num2) => {
     const arr = []
     for ( let i = num1; i <= num2; i++ ) {
@@ -6,5 +9,4 @@ const rangeBetween = (num1,num2) => {
     return arr
 }
 
-//console.log(rangeBetween(4,7))
 module.exports = { rangeBetween }

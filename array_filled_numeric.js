@@ -9,12 +9,10 @@
  * 
  * 
  */
-const numFilledArr = (num,value) => {
-    const arr = []
-    for ( let i = 0; i < num; i++ ) {
-        arr.push(value)
-    }
+const numFilledArr = (length,value) => {
+    const arr = Array(length).fill(value)
+    
     return arr
 }
-//console.log(numFilledArr(3,6))
+
 module.exports = { numFilledArr }

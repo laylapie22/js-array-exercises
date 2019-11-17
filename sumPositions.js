@@ -1,6 +1,4 @@
-/**
- * 
- * There are two arrays with individual values, write a 
+/** There are two arrays with individual values, write a 
  * JavaScript program to compute the sum of each individual index value from the given arrays. 
  */
 const sumPositions = (arr1,arr2) => {
@@ -26,7 +24,5 @@ const sumPositions = (arr1,arr2) => {
     }
         return sumOfArrays
 }
-
-//console.log(sumPositions([1,2],[3,4,5,7]))
 
 module.exports = {sumPositions}

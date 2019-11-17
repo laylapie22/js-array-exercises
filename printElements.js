@@ -10,14 +10,15 @@
  */
 
  const printEl = (array) => {
-     array.forEach( (arr, i) => {
+     array.forEach( (el, i) => {
         console.log("row ", i)
-        arr.forEach( el => {
-            console.log(el)
-         })  
+
+        el.forEach( (e) => {
+            console.log(" " + e)
+        })
      })
-     console.log("\n")
+     console.log(" \n")
  }
 
- const a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]
- printEl(a)
+  const a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]
+  printEl(a)

@@ -1,10 +1,13 @@
+/** Write a JavaScript program to 
+ * find the sum of squares of a numeric vector. 
+*/
 const sumSq = (arr) => {
     let sum = 0;
-    for ( let i = 0; i < arr.length; i++ ) {
+    arr.forEach( el => {
         sum += Math.pow(arr[i],2)
-    }
+    })
     return sum
+    
+    
 }
-
-//console.log(sumSq([1,2,3,4]))
 module.exports = {sumSq}

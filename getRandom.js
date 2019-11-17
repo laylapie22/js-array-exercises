@@ -1,6 +1,5 @@
-/**
- *
- *  This program will return 
+/** 
+ * Write a program that will return 
  * a random value from the array inputed
  */
 const randomIdxGen = (max) => {
@@ -16,5 +15,5 @@ const randomValue = (arr) => {
     }
     return randomVal
 }
-//console.log(randomValue([1,2,3,4,5,6,7]))
+
 module.exports = { randomValue, randomIdxGen }

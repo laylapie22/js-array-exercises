@@ -1,14 +1,16 @@
+/** Write a JavaScript program to compute 
+ * the union of two arrays 
+ * */
 const unionArr = (arr1,arr2) => {
     let union = []
-    for ( let i = 0; i < arr1.length; i++ ) {
-        union.push(arr1[i])
-    }
-    for( let i = 0; i < arr2.length; i++ ) {
-        union.push(arr2[i])
-    }
-
+    arr1.forEach( el => {
+        union.push(el)
+    })
+    arr2.forEach( el => {
+        union.push(el)
+    })
     const set = new Set(union)
     return Array.from(set)
 }
 
-console.log(unionArr([1,2,3,4],[3,5,6,7]))
+module.exports = { unionArr }

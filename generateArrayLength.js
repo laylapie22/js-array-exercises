@@ -1,5 +1,4 @@
-/**
- * Write a JavaScript function to generate an array of specified length, 
+/** Write a JavaScript function to generate an array of specified length, 
  * filled with integer numbers, increase by one from starting position.
  */
 
